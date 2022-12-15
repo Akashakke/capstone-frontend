@@ -21,16 +21,16 @@
   }
   
   .a-left > img {
-    width: 4rem;
-    height: 4rem;
+    width: 10rem;
+    height: 10rem;
   }
   
   .Webname > h1 {
       font-size: 3rem;
-      background-color: red;
+      
     
       /* Create the gradient. */
-      background-image: var(--buttonBg);
+      
       
       /* Set the background size and repeat properties. */
       background-size: 100%;
@@ -38,10 +38,7 @@
     
       /* Use the text as a mask for the background. */
       /* This will show the gradient as a text color rather than element bg. */
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent; 
-      -moz-background-clip: text;
-      -moz-text-fill-color: transparent;
+    
   }
   
   .Webname>h6{

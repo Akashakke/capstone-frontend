@@ -21,15 +21,7 @@
   padding: 1rem 1rem;
 }
 
-/* blur */
-.blur {
-  position: absolute;
-  width: 22rem;
-  height: 14rem;
-  border-radius: 50%;
-  background: #a6ddf0;
-  filter: blur(72px);
-}
+
 
 .button {
   display: flex;
@@ -38,13 +30,13 @@
   color: white;
   border: none;
   border-radius: 0.5rem;
-  background: var(--buttonBg);
+  background: var(--black);
   transition: all 100ms ease-out;
 }
 
 .button:hover {
-  color: var(--orange);
-  border: 2px solid var(--orange);
+  color: var(--skyblue);
+  border: 2px solid var(--royalblue);
   cursor: pointer;
   background: transparent;
 }
