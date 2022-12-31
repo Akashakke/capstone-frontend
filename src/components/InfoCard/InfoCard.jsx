@@ -4,7 +4,7 @@ import { UilPen } from "@iconscout/react-unicons";
 import ProfileModal from "../ProfileModal/ProfileModal";
 import { useDispatch, useSelector } from "react-redux";
 import { useParams } from "react-router-dom";
-import * as UserApi from "../../api/UserRequest";
+import * as UserApi from "../../api/UserRequest.js";
 import { logout } from "../../actions/AuthAction";
 
 const InfoCard = () => {

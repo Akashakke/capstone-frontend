@@ -15,7 +15,7 @@ const RightSide = () => {
     <div className="RightSide">
       <div className="navIcons">
         <Link to={'../home'}>
-        <img src={Home} alt="" />
+        <img src='https://cdn.iconscout.com/icon/premium/png-256-thumb/address-blue-casa-circle-home-house-local-icon-45797.png' alt="" />
         </Link>
         
         <UilSetting />
