@@ -46,8 +46,8 @@
 }
 
 .UnfollowButton{
-    color: var(--orange);
-    border: 2px solid var(--orange);
+    color: var(--royalblue);
+    border: 2px solid var(--royalblue);
     cursor: pointer;
     background: transparent;
 }
@@ -55,7 +55,7 @@
 
 .FollowersCard>span{
     font-weight: bold;
-    color: orange;
+    color: royalblue;
     align-self: center;
     cursor: pointer;
 }
